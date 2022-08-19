@@ -1,0 +1,9 @@
+<h2><%= @list.name %></h2>
+<ul>
+  Movies:
+  <%@list.movies do |movie|%>
+    <li>
+      <%=movie%>
+    </li>
+  <%end%>
+</ul>

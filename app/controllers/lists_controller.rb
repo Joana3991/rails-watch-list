@@ -26,3 +26,6 @@ class ListsController < ApplicationController
     params.require(:list).permit(:name)
   end
 end
+
+
+# come back for edit, update and delete
